@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ReportNG  Suite]">
+  <test name="Login Test(failed)">
+    <classes>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="testScrolling"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [ReportNG  Suite] -->

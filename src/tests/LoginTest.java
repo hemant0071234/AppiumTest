@@ -1,6 +1,5 @@
 package tests;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.LoginPage;
 
@@ -18,8 +17,12 @@ public class LoginTest extends Basetestt{
 
         loginPage = new LoginPage(driver);
         loginPage.DoLogin("hemantjanrao@gmail.com", "mangal007");
-        Assert.assertTrue(false);
     }
 
-
+//    @Test
+//    public void testScrolling2() {
+//
+//        loginPage = new LoginPage(driver);
+//        loginPage.DoLogin("hemantjanrao@gmail.com", "mangal007");
+//    }
 }

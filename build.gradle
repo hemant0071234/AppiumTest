@@ -30,6 +30,10 @@ dependencies {
     compile 'org.lucee:commons-lang:2.6.0'
     compile 'com.google.code.gson:gson:2.8.0'
     compile 'com.google.guava:guava-parent-jdk5:17.0'
+    compile 'org.apache.stratos:guice:3.0'
+    compile 'org.uncommons:reportng:1.1.4'
+    compile 'velocity:velocity-dep:1.5-beta2'
+    testCompile 'com.aventstack:extentreports:3.0.1'
 
 }
 
