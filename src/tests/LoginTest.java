@@ -20,7 +20,7 @@ public class LoginTest extends Basetestt{
 
         loginPage = new LoginPage(driver);
         loginPage.DoLogin("hemantjanrao@gmail.com", "mangal007");
-
+        Assert.assertTrue(false);
     }
 
 

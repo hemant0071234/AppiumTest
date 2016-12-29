@@ -1,6 +1,7 @@
 package tests;
 
 import io.appium.java_client.android.AndroidDriver;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -15,10 +16,10 @@ import java.io.InputStream;
 /**
  * Created by hemantjanrao on 12/28/16.
  */
-//@Listeners(utils.TestListners.class)
+@Listeners(utils.TestListners.class)
 public class Basetestt {
 
-    public AndroidDriver driver;
+    public static AndroidDriver driver;
 
 
     @BeforeClass(alwaysRun = true)
@@ -27,6 +28,10 @@ public class Basetestt {
         ap.loadConfigProp("/Users/hemantjanrao/Documents/JD/1/src/config/config_android_settings.properties");
         ap.setCapabilities();
 
+    }
+
+    public static AndroidDriver getDriverr() throws Exception {
+        return driver;
     }
 
     @BeforeMethod(alwaysRun = true)
