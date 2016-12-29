@@ -47,7 +47,7 @@ public class Basetestt {
         reports = new ExtentReports("/Users/hemantjanrao/Documents/JD/1/src/reports/Test.html",true);
 
         //Declare Start test name
-        ExtentTest test = reports.startTest("Verify Home page");
+        test = reports.startTest("Verify Home page");
     }
 
     @AfterTest

@@ -1,5 +1,7 @@
 package tests;
 
+import com.relevantcodes.extentreports.LogStatus;
+import org.junit.Assert;
 import org.testng.annotations.Test;
 import pages.LoginPage;
 
@@ -17,6 +19,11 @@ public class LoginTest extends Basetestt{
 
         loginPage = new LoginPage(driver);
         loginPage.DoLogin("hemantjanrao@gmail.com", "mangal007");
+        Assert.assertTrue(false);
+        test.log(LogStatus.PASS,"login is done");
+
+
+//        test.log(LogStatus.PASS,"assert done");
     }
 
 //    @Test
