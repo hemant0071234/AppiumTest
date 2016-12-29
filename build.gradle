@@ -1,0 +1,35 @@
+group 'hh'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile 'io.appium:java-client:4.1.2'
+    //compile 'org.seleniumhq.selenium:selenium-server:3.0.1'
+    compile 'org.webjars.npm:selenium-server:2.53.0'
+    compile 'org.testng:testng:6.10'
+    testCompile 'org.testobject:testobject-appium-java-api:0.0.26'
+    compile 'io.appium:droiddriver:1.0.0-BETA1'
+    compile 'org.seleniumhq.selenium:selenium-parent:2.53.1'
+    compile 'org.seleniumhq.selenium:selenium-java:3.0.1'
+    compile 'org.seleniumhq.selenium:selenium-android-driver:2.39.0'
+//    compile 'org.openqa.selenium.server:selenium-server:1.0-20081010.060147'
+//    compile 'org.seleniumhq.selenium.server:selenium-server:1.0.3'
+    compile 'io.selendroid:selendroid-client:0.17.0'
+    compile 'org.seleniumhq.selenium:selenium-common:2.0b1'
+    compile 'com.google.guava:guava:21.0-rc1'
+    compile 'org.mod4j.org.apache.commons:logging:1.0.4'
+    compile 'com.googlecode.json-simple:json-simple:1.1.1'
+    compile 'org.lucee:commons-lang:2.6.0'
+    compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.google.guava:guava-parent-jdk5:17.0'
+
+}
+
