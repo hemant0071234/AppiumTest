@@ -1,7 +1,5 @@
 package utils;
 
-import io.appium.java_client.android.AndroidDriver;
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -13,12 +11,7 @@ import tests.Basetestt;
 
 import java.io.File;
 import java.io.IOException;
-import java.net.MalformedURLException;
-import java.io.File;
 import java.io.FileOutputStream;
-import java.io.IOException;
-
-import static utils.AppUtils.*;
 
 /**
  * Created by hemantjanrao on 12/28/16.

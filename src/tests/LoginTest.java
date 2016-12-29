@@ -1,7 +1,6 @@
 package tests;
 
 import org.testng.Assert;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.LoginPage;
 
@@ -12,7 +11,6 @@ import pages.LoginPage;
 
 public class LoginTest extends Basetestt{
 
-    //private AndroidDriver driver;
     private LoginPage loginPage;
 
     @Test
