@@ -25,7 +25,7 @@ public class Basetestt {
     @BeforeClass(alwaysRun = true)
     public void initAutomation() throws IOException {
         AppUtils ap= new AppUtils();
-        ap.loadConfigProp("/Users/hemantjanrao/Documents/JD/1/src/config/config_android_settings.properties");
+        ap.loadConfigProp("src/config/config_android_settings.properties");
         ap.setCapabilities();
 
     }

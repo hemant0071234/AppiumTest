@@ -71,13 +71,6 @@ public class AppUtils {
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, AppUtils.AUTOMATION_INSTRUMENTATION);
         capabilities.setCapability(MobileCapabilityType.APP,AppUtils.APPLICATION_NAME);
         capabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, AppUtils.NEW_COMMAND_TIMEOUT);
-//        capabilities.setCapability(MobileCapabilityType.DEVICE_READY_TIMEOUT, AppUtils.DEVICE_READY_TIMEOUT);
-//        if (prop.containsKey("wait.activity")) {
-//            capabilities.setCapability(MobileCapabilityType.APP_WAIT_ACTIVITY, AppUtils.WAIT_ACTIVITY);
-//        } else {
-//            capabilities.setCapability(MobileCapabilityType.APP_ACTIVITY, AppUtils.APP_ACTIVITY);
-//        }
-//        capabilities.setCapability(MobileCapabilityType.APP_PACKAGE, AppUtils.BASE_PKG);
     }
 
     public static AndroidDriver getDriver() throws MalformedURLException {
